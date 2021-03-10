@@ -8,10 +8,35 @@
     <title>Registration form</title>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Rajagiri College</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="carousel.php">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="respstudent.php">Student</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
     <div class="container">
         <div class="row">
             <div class="col col-12 col-sm-3 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                <table class="table">
+                <table class="table table-borderless">
                     <tr>
                         <td>Name</td>
                         <td><input type="text" class="form-control"></td>
@@ -35,7 +60,7 @@
                 </table>
             </div>
             <div class="col col-12 col-sm-3 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                <table class="table">
+                <table class="table table-borderless">
                     <tr>
                         <td>Username</td>
                         <td><input type="text" class="form-control"></td>
@@ -56,6 +81,6 @@
             </div>
         </div>
     </div>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 </html>
